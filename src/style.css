@@ -37,9 +37,11 @@ body {
 
 button{
     position:absolute;
-    top: 50%;
-    left: 42%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    margin-left: 50px;
+    margin-top: 240px;
+    /* top: 10%;
+    left:10%; */
+    /* -ms-transform: translateY(-10%);
+    transform: translateY(-10%); */
     font-size: 5rem;
 }
