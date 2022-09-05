@@ -12,7 +12,6 @@ body {
   border-radius: 5px;
   border: 2px solid brown;
   position: relative;
-  text-align: center;
 }
 .top {
   position: absolute;
@@ -30,7 +29,17 @@ body {
 .number {
   position: absolute;
   top: 50%;
+  left: 42%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  font-size: 7rem;
+  font-size: 8rem;
+}
+
+button{
+    position:absolute;
+    top: 50%;
+    left: 42%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 5rem;
 }
